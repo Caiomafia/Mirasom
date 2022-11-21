@@ -15,4 +15,4 @@ function result(){
     var resultado = document.querySelector('.resultado').innerHTML;
 if(resultado){  document.querySelector('.resultado').innerHTML = eval(resultado)
 }
-}
+}/*Resultado*/
