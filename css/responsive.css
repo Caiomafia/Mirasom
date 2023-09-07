@@ -647,6 +647,7 @@
 }
 .single-process-box {
     margin-bottom: 60px;
+    text-align: center;
 }
 
 
@@ -891,6 +892,8 @@
 }
 .single-process-box {
     margin-bottom: 60px;
+    text-align: center;
+    
 }
 
 /*--about-section--*/
@@ -1171,7 +1174,8 @@
 }
 .single-process-box {
     margin-bottom: 50px;
-    padding: 0 18px 0
+    padding: 0 18px 0 ;
+    text-align: center;
 }
 
 /*-about-section--*/
