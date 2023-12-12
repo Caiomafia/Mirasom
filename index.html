@@ -8,52 +8,125 @@
 	<link rel="icon" type="image/png" sizes="56x56" href="images/icon.png">
 	<!-- bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
-
+	<!-- carousel CSS -->
 
 	<!-- animate CSS -->
 	<link rel="stylesheet" href="css/animate.css" type="text/css" media="all">	
 	<!-- animated-text CSS -->
-	<link rel="stylesheet" href="css/animated-text.css" type="text/css" media="all">		
+	<link rel="stylesheet" href="css/animated-text.css" type="text/css" media="all">	
+	<!-- font-awesome CSS -->
+	<link rel="stylesheet" href="css/all.min.css" type="text/css" media="all">	
 	<!-- font-flaticon CSS -->
 	<link rel="stylesheet" href="css/flaticon.css" type="text/css" media="all">	
 	<!-- theme-default CSS -->
 	<link rel="stylesheet" href="css/theme-default.css" type="text/css" media="all">	
-
+	<!-- meanmenu CSS -->
+	<link rel="stylesheet" href="css/meanmenu.min.css" type="text/css" media="all">	
 	<!-- Main Style CSS -->
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-
+	<!-- transitions CSS -->
+	<link rel="stylesheet" href="css/owl.transitions.css" type="text/css" media="all">
+	<!-- venobox CSS -->
+	<link rel="stylesheet" href="css/venobox.css" type="text/css" media="all">
 	<!-- responsive CSS -->
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="all">
-	
+	<!-- modernizr js -->	
+	<script src="js/modernizr-3.5.0.min.js"></script>	
 	<!-- bootstrap icons -->
 	<link rel="stylesheet" href="css/bootstrap-icons.css">
 </head>
 <body>
 
-	<header id="header">
-		<div class="header-logo">
-			<a href="index.html"><h3>Mirasom</h3></a>
-		</div>
-			<nav id="nav">
-			  <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
-				<span id="hamburger"></span>
-			  </button>
-			  <ul id="menu" role="menu">
-				<li><a href="/">Sobre</a></li>
-				<li><a href="/">Produtos</a></li>
-				<li><a href="/">Localização</a></li>
-				<div class="header-button">
-					<a href="contact-us.html">Contato</a>
+
+
+
+<!--==================================================-->
+<!-- Start-Header-Area -->
+<!--==================================================-->
+	<div id="sticky-header" class="header-area">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-3">
+					<div class="header-logo">
+						<a href="index.html"><h3>Mirasom</h3></a>
+					</div>
 				</div>
-			  </ul>
+				<div class="col-lg-9">
+					<div class="header-menu">
+						<ul class="nav_scroll">
+							<li><a href="*">home</a></li>
+							<li><a href="*">Sobre</a></li>	
+							<li><a href="*">serviços</a></li>
+						</ul>
+						<div class="header-button">
+							<a href="contact-us.html">Contato</a>
+						</div>
+				   </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!--==================================================-->
+	  <!--start-Mobail-menu-Area -->
+	<!--==================================================-->
+    <div class="mobile-menu-area d-sm-block d-md-block d-lg-none sticky">
+		<div class="mobile-menu">
+			<nav class="header-menu" style="display: block;">
+				<ul class="nav_scroll">
+					<li><a href="index.html">home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li class="add-new-menubar"><a href="#">Pages</a>
+						<div class="sub-menu">
+							<ul>
+								<li><a href="about.html">About us</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="service-details.html">Services details</a></li>
+								<li><a href="team.html">Team</a></li>
+								<li><a href="pricing.html">Pricing</a></li>
+								<li><a href="faqs.html">Faqs</a></li>
+								<li><a href="my-account.html">My account</a></li>
+								<li><a href="account-details.html">Account Details</a></li>
+								
+							</ul>
+						</div>
+					</li>
+					<li class="add-new-menubar"><a href="#">shop</a>
+						<div class="sub-menu">
+							<ul>
+								<li><a href="shope.html">Shope</a></li>
+								<li><a href="shope-details.html">Shope details</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="add-new-menubar"><a href="#">Blog</a>
+						<div class="sub-menu">
+							<ul>
+								<li><a href="blog.html">blog</a></li>
+								<li><a href="blog-grid.html">blog grid</a></li>
+								<li><a href="blog-list.html">Blog list</a></li>
+								<li><a href="2column-blog.html">blog 2column</a></li>
+								<li><a href="blog-details.html">blog details</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="contact-us.html">contact</a></li>	
+				</ul>
 			</nav>
-		  </header>
+		</div>
+	</div>
+<!--==================================================-->
+<!--End-Mobail-menu-Area -->
+<!--==================================================-->
 
 
 
 
-<!-- Start-hero-principal -->
-
+<!--==================================================-->
+<!-- Start-hero-Area -->
+<!--==================================================-->
 <div class="hero-area align-items-center d-flex">
 	<div class="container">
 		<div class="row align-items-center">
@@ -84,7 +157,7 @@
 
 
 
-
+<!--==================================================-->
 <!-- Nossos serviços -->
 
 <div class="services-area">
@@ -132,7 +205,7 @@
 						<img src="images/services-icon3.png" alt="icon imgs">
 					</div>
 					<div class="services-box-content">
-						<h4>Tablet & Celulares</h4>
+						<h4>Tablet/iPad Repair</h4>
 						<p>Hoje em dia, nossos telefones e tablets são essenciais para nos mantermos conectados com o mundo e realizarmos várias tarefas diárias. A Mirasom agora pode resolver isso para você    </p>
 					</div>
 					<div class="services-box-button">
@@ -147,9 +220,9 @@
 
 
 
-
+<!--==================================================-->
 <!-- Start-working-Process-Area -->
-
+<!--==================================================-->
 <div class="working-process-area">
 	<div class="container">
 		<div class="row">
@@ -198,11 +271,11 @@
 			<div class="col-lg-3 col-md-6">
 				<div class="single-process-box">
 					<div class="porcess-icon-imgs">
-						<img src="images/jobs.png" alt="iocn imgs">
+						<img src="images/process-icon4.png" alt="iocn imgs">
 					</div>
 					<div class="porcess-box-content">
-						<h4>Qualificação</h4>
-						<p>Nossa equipe possui 20 anos no setor , e estamos em constante evolução </p>
+						<h4>Best Technician</h4>
+						<p>We offer free postage with all computer repairs. Saving you time and money</p>
 					</div>
 				</div>
 			</div>
@@ -210,15 +283,27 @@
 	</div>
 </div><!--end-working-porcess-area-->
 
-<!-- Start-blog-Area -->
 
+
+
+<!--==================================================-->
+
+
+
+
+
+
+
+<!--==================================================-->
+<!-- Start-blog-Area -->
+<!--==================================================-->
 <div class="blog-area">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
 				<div class="section-title">
-					<h4>Nossas </h4>
-					<h1>Novidades </h1>
+					<h4>What We Do</h4>
+					<h1>Get your repair started</h1>
 				</div>
 			</div>
 		</div>
@@ -228,15 +313,15 @@
 					<div class="blog-thumb">
 						<img src="images/blog-img1.png" alt="blog imgs">
 						<div class="meta-price">
-							<span>Gratís</span>
+							<span>$170.00</span>
 						</div>
 					</div>
 					<div class="blog-content">
-						<h4><a href="blog-details.html">Orçamentos</a></h4>
-						<p>Qualquer orçamento na nossa loja , nossos cliente não pagam , apenas após verificação e análise das peças </p>
+						<h4><a href="blog-details.html">Fast phone repair</a></h4>
+						<p>We can fix cracked screens, replace phone batteries and more</p>
 					</div>
 					<div class="blog-box-button">
-						<a href="blog-details.html">Entrar em contato</a>
+						<a href="blog-details.html">Read more</a>
 					</div>
 				</div>
 			</div>
@@ -245,14 +330,32 @@
 					<div class="blog-thumb">
 						<img src="images/blog-img2.png" alt="blog imgs">
 						<div class="meta-price">
+							<span>$170.00</span>
 						</div>
 					</div>
 					<div class="blog-content">
 						<h4><a href="blog-details.html">Seguros contra Raios</a></h4>
-						<p>Já sofreu com picos de energia  e fortes chuvas ? A Mirasom pode ajudar com o reembolso e conserto das peças  </p>
+						<p>Caso seja afetado pela mal condição da energia podemos cobrir esses prejuízo</p>
 					</div>
 					<div class="blog-box-button">
-						<a href="blog-details.html">Entrar em contato</a>
+						<a href="blog-details.html">Read more</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<div class="single-blog-box">
+					<div class="blog-thumb">
+						<img src="images/blog-img3.png" alt="blog imgs">
+						<div class="meta-price">
+							<span>$170.00</span>
+						</div>
+					</div>
+					<div class="blog-content">
+						<h4><a href="blog-details.html">Battery Changing</a></h4>
+						<p>We can fix cracked screens, replace phone batteries and more</p>
+					</div>
+					<div class="blog-box-button">
+						<a href="blog-details.html">Read more</a>
 					</div>
 				</div>
 			</div>
@@ -261,14 +364,15 @@
 					<div class="blog-thumb">
 						<img src="images/blog-img4.png" alt="blog imgs">
 						<div class="meta-price">
+							<span>$170.00</span>
 						</div>
 					</div>
 					<div class="blog-content">
-						<h4><a href="blog-details.html">Manunteção</a></h4>
-						<p>Novidade agora você tem a loja certa para deixar seu equipamento de trabalho ou estudo </p>
+						<h4><a href="blog-details.html">Manunteção Computador</a></h4>
+						<p>Seu computador apresenta algum defeito ? entre em contato com nosso suporte</p>
 					</div>
 					<div class="blog-box-button">
-						<a href="blog-details.html">Entrar em contato</a>
+						<a href="blog-details.html">Read more</a>
 					</div>
 				</div>
 			</div>
@@ -277,6 +381,7 @@
 					<div class="blog-thumb">
 						<img src="images/blog-img5.png" alt="blog imgs">
 						<div class="meta-price">
+							<span>$170.00</span>
 						</div>
 					</div>
 					<div class="blog-content">
@@ -284,7 +389,7 @@
 						<p>Nossa Loja tem variedade de equipamentos para fornecer aquela melhoria ou manunteção  </p>
 					</div>
 					<div class="blog-box-button">
-						<a href="blog-details.html">Entrar em contato</a>
+						<a href="blog-details.html">Read more</a>
 					</div>
 				</div>
 			</div>
@@ -293,32 +398,15 @@
 					<div class="blog-thumb">
 						<img src="images/blog-img6.png" alt="blog imgs">
 						<div class="meta-price">
-
+							<span>$170.00</span>
 						</div>
 					</div>
 					<div class="blog-content">
 						<h4><a href="blog-details.html">Treinamentos </a></h4>
-						<p>Nossa empresa está em constante evolução , e sempre precisamos de novos proffisionais em nossos cursos  </p>
+						<p>Já penso em aprender uma nova profissão , disponibilizamos treinamentos </p>
 					</div>
 					<div class="blog-box-button">
-						<a href="blog-details.html">Entrar em contato</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-6">
-				<div class="single-blog-box">
-					<div class="blog-thumb">
-						<img src="https://t2.tudocdn.net/600961?w=1920" alt="blog imgs"  class="casaphoto">
-						<div class="meta-price">
-
-						</div>
-					</div>
-					<div class="blog-content">
-						<h4><a href="blog-details.html">Casa Inteligente </a></h4>
-						<p>Controle sua casa na palma da sua mão ou apenas usando comandos e rotinas  </p>
-					</div>
-					<div class="blog-box-button">
-						<a href="blog-details.html">Entrar em contato</a>
+						<a href="blog-details.html">Read more</a>
 					</div>
 				</div>
 			</div>
@@ -327,12 +415,44 @@
 </div><!--end-blog-area-->
 
 
+
+
+
+
+
+
+<!--==================================================-->
+
+<!-- Start-contact-Area-->
+<!--==================================================-->
+<div class="contact-area">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6 col-md-12">
+				<div class="contact-thumb">
+					<img src="images/contact-imgs.png" alt="contct imgs">
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12">
+
+
+			</div>
+		</div>
+	</div>
+</div><!--end-contact-area-->
+
+
+
+
+
+<!-- Start-google-map-Area-->
+<!--==================================================-->
 <div class="google-map-area">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="google-map">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d7684.890945578632!2d-47.65101252547845!3d-15.62124905663601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x935a134ac1c982b1%3A0x289668389e71bd59!2smirasom%202!3m2!1d-15.617282699999999!2d-47.647847399999996!5e0!3m2!1spt-BR!2sbr!4v1688728626135!5m2!1spt-BR!2sbr"></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.326734480615!2d90.3636113!3d23.8069778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c105f81691d5%3A0x4aa9bd97de918f7b!2sSher-E-Bangla%20National%20Cricket%20Stadium!5e0!3m2!1sen!2sbd!4v1676297302076!5m2!1sen!2sbd"></iframe>
 				</div>
 			</div>
 		</div>
@@ -340,20 +460,75 @@
 </div><!--end-google-map-->
 
 
+<!--==================================================-->
+<!-- Start-coppy-right-Area-->
+<!--==================================================-->
+<div class="coppy-right-area">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6 col-md-12">
+				<div class="coppy-right-text">
+					<span><i class="bi bi-c-circle"></i>2023 All Rights Reserved Dreamhub</span>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-12">
+			   <div class="coppy-right-menu">
+					<ul>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Resources</a></li>
+						<li><a href="#"> Contact us</a></li>
+					</ul>
+		    	</div>
+			</div>
+		</div>
+	</div>
+</div><!--end-coppy-right-area-->
 
 
-<footer>
-	<div><h3>Mirasom</h3> </div>
 
-    <ul>
-		<li><a href="index.html">Home</a></li>
-		<li><a href=".blog-area">Serviços</a></li>
-		<li><a href="">Contato</a></li>
-	</ul>
 
-</footer>
 
-     <script src="js/main.js"></script>
+
+<!--==================================================-->
+<!-- Start scrollup section Section -->
+<!--==================================================-->
+
+
+
+	
+	<!-- jquery js -->	
+	<script src="js/jquery-3.6.2.min.js"></script>
+	<!-- bootstrap js -->	
 	<script src="js/bootstrap.min.js"></script>
+	<!-- carousel js -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- counterup js -->
+	<script src="js/jquery.counterup.min.js"></script>
+	<!-- waypoints js -->
+	<script src="js/waypoints.min.js"></script>
+	<!-- wow js -->
+	<script src="js/wow.js"></script>
+	<!-- imagesloaded js -->
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<!-- venobox js -->
+	<script src="js/venobox.js"></script>
+	<script src="js/ajax-mail.js"></script>
+	<!--  animated-text js -->	
+	<script src="js/animated-text.js"></script>
+	<!-- venobox min js -->
+	<script src="js/venobox.min.js"></script>
+	<!-- isotope js -->
+	<script src="js/isotope.pkgd.min.js"></script>
+	<!-- jquery meanmenu js -->	
+	<script src="js/jquery.meanmenu.js"></script>
+	<!-- jquery scrollup js -->	
+	<script src="js/jquery.scrollUp.js"></script>
+	<!-- theme js -->	
+	<script src="js/theme.js"></script>
+	<script src="js/jquery.barfiller.js"></script>
+	<!-- jquery js -->	
+
+	<!--faqs-tab-js-->	
+		
 
 </body></html>

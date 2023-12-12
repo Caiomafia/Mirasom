@@ -1,0 +1,620 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticon-set-logisticse381.ttf") format("truetype"),
+url("../fonts/flaticon-set-logisticse381.woff") format("woff"),
+url("../fonts/flaticon-set-logisticse381.woff2") format("woff2"),
+url("../fonts/flaticon-set-logisticse381.eot#iefix") format("embedded-opentype"),
+url("../fonts/flaticon-set-logisticse381.svg#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-logistics:before {
+    content: "\f101";
+}
+.flaticon-cargo:before {
+    content: "\f102";
+}
+.flaticon-logistics-1:before {
+    content: "\f103";
+}
+.flaticon-logistics-2:before {
+    content: "\f104";
+}
+.flaticon-boxes:before {
+    content: "\f105";
+}
+.flaticon-import:before {
+    content: "\f106";
+}
+.flaticon-cargo-ship:before {
+    content: "\f107";
+}
+.flaticon-logistics-3:before {
+    content: "\f108";
+}
+.flaticon-logistics-4:before {
+    content: "\f109";
+}
+.flaticon-delivery:before {
+    content: "\f10a";
+}
+.flaticon-logistic:before {
+    content: "\f10b";
+}
+.flaticon-port:before {
+    content: "\f10c";
+}
+.flaticon-cargo-1:before {
+    content: "\f10d";
+}
+.flaticon-shipment:before {
+    content: "\f10e";
+}
+.flaticon-delivery-man:before {
+    content: "\f10f";
+}
+.flaticon-supply-chain:before {
+    content: "\f110";
+}
+.flaticon-container:before {
+    content: "\f111";
+}
+.flaticon-delivery-man-1:before {
+    content: "\f112";
+}
+.flaticon-box:before {
+    content: "\f113";
+}
+.flaticon-logistics-5:before {
+    content: "\f114";
+}
+.flaticon-team:before {
+    content: "\f115";
+}
+.flaticon-3d-cube:before {
+    content: "\f116";
+}
+.flaticon-global:before {
+    content: "\f117";
+}
+.flaticon-customer-service:before {
+    content: "\f118";
+}
+.flaticon-cargo-boat:before {
+    content: "\f119";
+}
+.flaticon-logistics-6:before {
+    content: "\f11a";
+}
+.flaticon-airplane:before {
+    content: "\f11b";
+}
+.flaticon-parcel:before {
+    content: "\f11c";
+}
+.flaticon-order:before {
+    content: "\f11d";
+}
+.flaticon-truck:before {
+    content: "\f11e";
+}
+.flaticon-container-1:before {
+    content: "\f11f";
+}
+.flaticon-global-1:before {
+    content: "\f120";
+}
+.flaticon-global-2:before {
+    content: "\f121";
+}
+.flaticon-worldwide-shipping:before {
+    content: "\f122";
+}
+.flaticon-fast-delivery:before {
+    content: "\f123";
+}
+.flaticon-worldwide-shipping-1:before {
+    content: "\f124";
+}
+.flaticon-shipment-1:before {
+    content: "\f125";
+}
+.flaticon-cart:before {
+    content: "\f126";
+}
+.flaticon-global-shipping:before {
+    content: "\f127";
+}
+.flaticon-delivery-man-2:before {
+    content: "\f128";
+}
+.flaticon-cargo-ship-1:before {
+    content: "\f129";
+}
+.flaticon-forklift:before {
+    content: "\f12a";
+}
+.flaticon-forklift-1:before {
+    content: "\f12b";
+}
+.flaticon-delivery-courier:before {
+    content: "\f12c";
+}
+.flaticon-shipping:before {
+    content: "\f12d";
+}
+.flaticon-airplane-1:before {
+    content: "\f12e";
+}
+.flaticon-stock:before {
+    content: "\f12f";
+}
+.flaticon-air-freight:before {
+    content: "\f130";
+}
+.flaticon-maintenance:before {
+    content: "\f131";
+}
+.flaticon-air:before {
+    content: "\f132";
+}
+.flaticon-logistics-delivery:before {
+    content: "\f133";
+}
+.flaticon-logistics-delivery-1:before {
+    content: "\f134";
+}
+.flaticon-clipboard:before {
+    content: "\f135";
+}
+.flaticon-logistics-delivery-2:before {
+    content: "\f136";
+}
+.flaticon-logistics-delivery-3:before {
+    content: "\f137";
+}
+.flaticon-box-1:before {
+    content: "\f138";
+}
+.flaticon-truck-1:before {
+    content: "\f139";
+}
+.flaticon-order-1:before {
+    content: "\f13a";
+}
+.flaticon-search:before {
+    content: "\f13b";
+}
+.flaticon-delivery-truck:before {
+    content: "\f13c";
+}
+.flaticon-international-shipping:before {
+    content: "\f13d";
+}
+.flaticon-24-hours:before {
+    content: "\f13e";
+}
+.flaticon-logistics-delivery-4:before {
+    content: "\f13f";
+}
+.flaticon-home-delivery:before {
+    content: "\f140";
+}
+.flaticon-forklift-2:before {
+    content: "\f141";
+}
+.flaticon-call-center:before {
+    content: "\f142";
+}
+.flaticon-crane:before {
+    content: "\f143";
+}
+.flaticon-headset:before {
+    content: "\f144";
+}
+.flaticon-shipment-2:before {
+    content: "\f145";
+}
+.flaticon-clipboard-1:before {
+    content: "\f146";
+}
+.flaticon-production:before {
+    content: "\f147";
+}
+.flaticon-export:before {
+    content: "\f148";
+}
+.flaticon-shopping-bag:before {
+    content: "\f149";
+}
+.flaticon-qr-code:before {
+    content: "\f14a";
+}
+.flaticon-air-plane:before {
+    content: "\f14b";
+}
+.flaticon-cash-on-delivery:before {
+    content: "\f14c";
+}
+.flaticon-import-1:before {
+    content: "\f14d";
+}
+.flaticon-24-hours-1:before {
+    content: "\f14e";
+}
+.flaticon-international-shipping-1:before {
+    content: "\f14f";
+}
+.flaticon-received:before {
+    content: "\f150";
+}
+.flaticon-export-1:before {
+    content: "\f151";
+}
+.flaticon-truck-2:before {
+    content: "\f152";
+}
+.flaticon-increase:before {
+    content: "\f153";
+}
+.flaticon-global-shipping-1:before {
+    content: "\f154";
+}
+.flaticon-crane-1:before {
+    content: "\f155";
+}
+.flaticon-shield:before {
+    content: "\f156";
+}
+.flaticon-container-2:before {
+    content: "\f157";
+}
+.flaticon-delivery-truck-1:before {
+    content: "\f158";
+}
+.flaticon-fast-delivery-1:before {
+    content: "\f159";
+}
+.flaticon-shipping-1:before {
+    content: "\f15a";
+}
+.flaticon-cash-on-delivery-1:before {
+    content: "\f15b";
+}
+.flaticon-delivery-1:before {
+    content: "\f15c";
+}
+.flaticon-trolley:before {
+    content: "\f15d";
+}
+.flaticon-packaging:before {
+    content: "\f15e";
+}
+.flaticon-setting:before {
+    content: "\f15f";
+}
+.flaticon-trolley-1:before {
+    content: "\f160";
+}
+.flaticon-settings:before {
+    content: "\f161";
+}
+.flaticon-delivery-2:before {
+    content: "\f162";
+}
+.flaticon-computer-monitor:before {
+    content: "\f163";
+}
+.flaticon-delivery-truck-2:before {
+    content: "\f164";
+}
+.flaticon-courier:before {
+    content: "\f165";
+}
+.flaticon-24-hours-delivery:before {
+    content: "\f166";
+}
+.flaticon-location-pin:before {
+    content: "\f167";
+}
+.flaticon-cash:before {
+    content: "\f168";
+}
+.flaticon-delivery-box:before {
+    content: "\f169";
+}
+.flaticon-delivery-bike:before {
+    content: "\f16a";
+}
+.flaticon-partnership:before {
+    content: "\f16b";
+}
+.flaticon-schedule:before {
+    content: "\f16c";
+}
+.flaticon-lock:before {
+    content: "\f16d";
+}
+.flaticon-delivery-box-1:before {
+    content: "\f16e";
+}
+.flaticon-open-box:before {
+    content: "\f16f";
+}
+.flaticon-product:before {
+    content: "\f170";
+}
+.flaticon-packages:before {
+    content: "\f171";
+}
+.flaticon-delivery-insurance:before {
+    content: "\f172";
+}
+.flaticon-weight:before {
+    content: "\f173";
+}
+.flaticon-global-3:before {
+    content: "\f174";
+}
+.flaticon-distribution-center:before {
+    content: "\f175";
+}
+.flaticon-weight-1:before {
+    content: "\f176";
+}
+.flaticon-trolley-2:before {
+    content: "\f177";
+}
+.flaticon-warehouse:before {
+    content: "\f178";
+}
+.flaticon-forklift-3:before {
+    content: "\f179";
+}
+.flaticon-shipping-2:before {
+    content: "\f17a";
+}
+.flaticon-delivery-service:before {
+    content: "\f17b";
+}
+.flaticon-24-hours-2:before {
+    content: "\f17c";
+}
+.flaticon-conveyor:before {
+    content: "\f17d";
+}
+.flaticon-24-hours-3:before {
+    content: "\f17e";
+}
+.flaticon-clipboard-2:before {
+    content: "\f17f";
+}
+.flaticon-airplane-2:before {
+    content: "\f180";
+}
+.flaticon-delivery-box-2:before {
+    content: "\f181";
+}
+.flaticon-checklist:before {
+    content: "\f182";
+}
+.flaticon-crane-2:before {
+    content: "\f183";
+}
+.flaticon-global-distribution:before {
+    content: "\f184";
+}
+.flaticon-delivery-3:before {
+    content: "\f185";
+}
+.flaticon-package:before {
+    content: "\f186";
+}
+.flaticon-weight-scale:before {
+    content: "\f187";
+}
+.flaticon-delivery-insurance-1:before {
+    content: "\f188";
+}
+.flaticon-train:before {
+    content: "\f189";
+}
+.flaticon-cargo-2:before {
+    content: "\f18a";
+}
+.flaticon-delivery-4:before {
+    content: "\f18b";
+}
+.flaticon-delivery-insurance-2:before {
+    content: "\f18c";
+}
+.flaticon-calendar:before {
+    content: "\f18d";
+}
+.flaticon-wrench:before {
+    content: "\f18e";
+}
+.flaticon-call-box:before {
+    content: "\f18f";
+}
+.flaticon-ship:before {
+    content: "\f190";
+}
+.flaticon-delivery-time:before {
+    content: "\f191";
+}
+.flaticon-trolley-3:before {
+    content: "\f192";
+}
+.flaticon-delivery-truck-3:before {
+    content: "\f193";
+}
+.flaticon-weight-2:before {
+    content: "\f194";
+}
+.flaticon-global-distribution-1:before {
+    content: "\f195";
+}
+.flaticon-tracking:before {
+    content: "\f196";
+}
+.flaticon-shipping-3:before {
+    content: "\f197";
+}
+.flaticon-delivery-5:before {
+    content: "\f198";
+}
+.flaticon-international-shipping-2:before {
+    content: "\f199";
+}
+.flaticon-delivery-cart:before {
+    content: "\f19a";
+}
+.flaticon-stock-1:before {
+    content: "\f19b";
+}
+.flaticon-delivery-service-1:before {
+    content: "\f19c";
+}
+.flaticon-distribution:before {
+    content: "\f19d";
+}
+.flaticon-scanner:before {
+    content: "\f19e";
+}
+.flaticon-delivery-box-3:before {
+    content: "\f19f";
+}
+.flaticon-settings-1:before {
+    content: "\f1a0";
+}
+.flaticon-vaccine:before {
+    content: "\f1a1";
+}
+.flaticon-worldwide-shipping-2:before {
+    content: "\f1a2";
+}
+.flaticon-delivery-insurance-3:before {
+    content: "\f1a3";
+}
+.flaticon-global-distribution-2:before {
+    content: "\f1a4";
+}
+.flaticon-delivery-box-4:before {
+    content: "\f1a5";
+}
+.flaticon-delivery-box-5:before {
+    content: "\f1a6";
+}
+.flaticon-air-mail:before {
+    content: "\f1a7";
+}
+.flaticon-recycle:before {
+    content: "\f1a8";
+}
+.flaticon-manufacturing:before {
+    content: "\f1a9";
+}
+.flaticon-smartphone:before {
+    content: "\f1aa";
+}
+.flaticon-import-2:before {
+    content: "\f1ab";
+}
+.flaticon-earth:before {
+    content: "\f1ac";
+}
+.flaticon-scooter:before {
+    content: "\f1ad";
+}
+.flaticon-delivery-6:before {
+    content: "\f1ae";
+}
+.flaticon-logistics-delivery-5:before {
+    content: "\f1af";
+}
+.flaticon-logistics-delivery-6:before {
+    content: "\f1b0";
+}
+.flaticon-transportation:before {
+    content: "\f1b1";
+}
+.flaticon-van:before {
+    content: "\f1b2";
+}
+.flaticon-supply-chain-management:before {
+    content: "\f1b3";
+}
+.flaticon-delivery-truck-4:before {
+    content: "\f1b4";
+}
+.flaticon-courier-1:before {
+    content: "\f1b5";
+}
+.flaticon-delivery-7:before {
+    content: "\f1b6";
+}
+.flaticon-logistics-7:before {
+    content: "\f1b7";
+}
+.flaticon-on-time:before {
+    content: "\f1b8";
+}
+.flaticon-distribution-center-1:before {
+    content: "\f1b9";
+}
+.flaticon-location:before {
+    content: "\f1ba";
+}
+.flaticon-air-freight-1:before {
+    content: "\f1bb";
+}
+.flaticon-logistics-8:before {
+    content: "\f1bc";
+}
+.flaticon-delivery-man-3:before {
+    content: "\f1bd";
+}
+.flaticon-logistics-delivery-7:before {
+    content: "\f1be";
+}
+.flaticon-international:before {
+    content: "\f1bf";
+}
+.flaticon-international-shipping-3:before {
+    content: "\f1c0";
+}
+.flaticon-distribution-1:before {
+    content: "\f1c1";
+}
+.flaticon-distribution-center-2:before {
+    content: "\f1c2";
+}
+.flaticon-container-3:before {
+    content: "\f1c3";
+}
+.flaticon-logistics-9:before {
+    content: "\f1c4";
+}
+.flaticon-delivery-8:before {
+    content: "\f1c5";
+}
+.flaticon-flow:before {
+    content: "\f1c6";
+}
+.flaticon-manufacture:before {
+    content: "\f1c7";
+}
+.flaticon-maps:before {
+    content: "\f1c8";
+}
