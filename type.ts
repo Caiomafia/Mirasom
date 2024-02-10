@@ -53,3 +53,19 @@ console.log("Pintar vermelho")
 
 
 printCategorias("nitro")
+
+
+
+
+
+
+//Aula de array 
+
+
+const números = [10,20,30,40,2];
+
+function maior(dados:number[]){
+    
+    return data.filter( (n) => n > 10);
+
+}
