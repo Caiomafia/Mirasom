@@ -10,7 +10,7 @@ function App() {
       <div>
         
       </div>
-      <h1 className=' text-2xl text-red-500'>Vite + React</h1>
+      <h1 className=' text-2xl text-red-500'>Assinatura de TV </h1>
     </>
   )
 }
