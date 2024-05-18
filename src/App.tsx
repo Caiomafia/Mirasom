@@ -1,16 +1,17 @@
 
 
 import './App.css'
+import Menu from './assets/components/menu/menu'
+
 
 function App() {
   
 
   return (
     <>
-      <div>
-        
-      </div>
-      <h1 className=' text-2xl text-red-500'>Assinatura de TV </h1>
+     <div>
+        <Menu></Menu>
+     </div>
     </>
   )
 }
