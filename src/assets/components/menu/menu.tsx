@@ -4,9 +4,9 @@
 const Menu = () => {
     return (
         <>
-        <div className="  flex justify-center">
+        <div className="  flex justify-center ">
             <img src='' alt="logo" className=' w-1/2' />
-            <ul className="flex justify-around w-1/3">
+            <ul className="flex justify-around w-1/3 text-white">
                 <li><a href="">Inicio</a></li>
                 <li><a href="">Recarregue Agora</a></li>
                 <li><a href="">Contato</a></li>
